@@ -297,7 +297,7 @@ nav>ul>li>a:hover{
 }
 
 iframe{
-  width: 530px;
+  width: 100%;
 }
 
 @media only screen and (min-width: 812px) {
@@ -313,6 +313,7 @@ iframe{
   iframe{
     border: 2px solid maroon;
     box-shadow: 5px 5px 5px maroon;
+    width: 100%;
   }
 
   /*tag line editing*/
