@@ -296,8 +296,8 @@ nav>ul>li>a:hover{
   margin-right: -1em;
 }
 
-#sidenav> ul> li> a:visited{
-  box-shadow: none;
+#sidenav> ul> li> a:hover{
+  border-color: none;
 }
 
 iframe{
