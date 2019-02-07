@@ -29,7 +29,7 @@ nav>ul>li>a:visited{
 
 #jina{
   color: maroon;
-  font-size: 4.7em;
+  font-size: 4.5em;
   text-shadow: none;
   text-decoration: underline;
   font-family: Monospace;
@@ -297,7 +297,7 @@ nav>ul>li>a:hover{
 }
 
 iframe{
-  width: 310px;
+  width: 50px;
 }
 
 @media only screen and (min-width: 812px) {
