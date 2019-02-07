@@ -345,4 +345,8 @@ iframe{
   iframe{
     width: 50px;
   }
+
+  nav>ul>li>a{
+    font-size: small;
+  }
 }
