@@ -29,7 +29,7 @@ nav>ul>li>a:visited{
 
 #jina{
   color: maroon;
-  font-size: 7em;
+  font-size: 5em;
   text-shadow: none;
   text-decoration: underline;
   font-family: Monospace;
@@ -189,6 +189,7 @@ a:visited{
   padding-top: 2em;
   border-radius: 0.5em;
   margin-top: -1em;
+
 }
 
 #customer1, #customer2, #customer3{
@@ -240,7 +241,7 @@ nav>ul>li>a:hover{
 
 
 #review img{
-  width: 10em;
+  width: 5em;
 }
 
 .container{
@@ -295,7 +296,15 @@ nav>ul>li>a:hover{
   margin-right: -1em;
 }
 
+iframe{
+  width: 98%;
+}
+
 @media only screen and (min-width: 812px) {
+  #jina{
+    font-size: 7em;
+  }
+
   #buy{
     display: flex;
     flex-direction: row;
@@ -323,5 +332,9 @@ nav>ul>li>a:hover{
 
   #style2{
     display: flex;
+  }
+
+  #review img{
+    width: 5em;
   }
 }
