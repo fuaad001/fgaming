@@ -1,0 +1,327 @@
+nav{
+  background-color: silver;
+}
+
+Nav ul{
+  text-align: center;
+}
+
+
+nav>ul>li{
+  display: inline-block;
+  margin: 1em;
+
+}
+
+nav>ul>li>a{
+  box-shadow: 2px 2px 5px maroon;
+  font-size: x-large;
+  font-family: Arial;
+  padding: 0.5em;
+  color: maroon;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav>ul>li>a:visited{
+  color: maroon;
+}
+
+#jina{
+  color: maroon;
+  font-size: 7em;
+  text-shadow: none;
+  text-decoration: underline;
+  font-family: Monospace;
+  font-style: italic;
+}
+
+.kichwa{
+  margin-top: 0;
+  margin-bottom: 0.1em;
+  text-shadow: 1px 1px 5px blue;
+  color: maroon;
+}
+
+/*tag line editing*/
+.title3{
+  color: black;
+  font-size: large;
+  margin: 1em;
+  text-align: center;
+}
+
+#console, #allgames, #customer, #contacts{
+  padding: 0.2em;
+  padding-top: 0.4em;
+  background-color: maroon;
+  color: white;
+  font-size: xx-large;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+p{
+  font-size: x-large;
+}
+
+img{
+  width: 300px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+/*game titles editing*/
+#mama{
+  text-decoration: underline;
+  font-size: x-large;
+}
+
+#trailer{
+  color: maroon;
+  text-decoration:double underline;
+}
+
+#games #individual{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  opacity: 0.9;
+}
+
+#individual{
+  border: 1px solid rgba(0, 255, 255, 0.1);
+  padding-bottom: 1em;
+  border-radius: 0.5em;
+  margin: 1em;
+  box-shadow: 3px 3px 5px grey;
+  color: black;
+}
+
+#baba{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+html{
+  color: black;
+  overflow: scroll;
+  background-color: silver;
+  opacity: 0.9;
+}
+
+table,tr,th,td{
+  border: 3px solid black;
+  border-collapse: collapse;
+  padding: 0.5em;
+}
+
+/*title box editing*/
+.sect2{
+  padding-top:0.5em;
+  padding-bottom: 0.5em;
+  display: flex;
+  justify-content: center;
+}
+
+#buy{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  opacity: 0.9;
+  padding: 2em;
+  border-radius: 0.5em;
+  text-align: center;
+}
+
+.title2{
+  text-align: center;
+  font-size: xx-large;
+  color: black;
+}
+
+a:hover{
+  color: red;
+  /*background-color: maroon;*/
+  padding: 1em;
+}
+
+a:visited{
+  color: green;
+}
+
+/* all games individual game container editing*/
+#baba{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* contact me icons editing*/
+#me{
+  width: 3.5%;
+  margin-top: -1.5em;
+  box-shadow: none;
+}
+
+/* console type heads editing*/
+#type1{
+  text-align: center;
+  padding: 0.5em;
+  box-shadow: 2px 2px 5px white;
+  background-color: white;
+  width: 15em;
+  text-decoration: underline;
+}
+
+#start{
+  background-color: cyan;
+}
+
+#review{
+  display: flex;
+  background-color: white;
+  opacity: 0.9;
+  padding-top: 2em;
+  border-radius: 0.5em;
+  margin-top: -1em;
+}
+
+#customer1, #customer2, #customer3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#review p{
+  color: black;
+  font-family: monospace;
+  margin-left: 0.5em;
+  margin-top: 0;
+}
+
+#review h5{
+  font-size: large;
+  font-family: fantasy;
+  text-align: center;
+  margin-bottom: 0;
+  color: maroon;
+}
+
+nav>ul>li>a:hover{
+  background-color: grey;
+}
+
+#gif, #gif2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#gif3{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#gif img, #gif3 img, #gif2 img{
+  box-shadow: none;
+  height: 5em;
+  width: 5em;
+}
+
+#style2{
+  justify-content: space-around;
+}
+
+
+#review img{
+  width: 10em;
+}
+
+.container{
+  background-color: white;
+  opacity: 0.9;
+  padding-top: 2em;
+  margin-top: -1em;
+  margin-bottom: 2px;
+  border-radius: 0.5em;
+
+}
+
+#pictures{
+  display: flex;
+  justify-content: center;
+}
+
+
+#contactme{
+  display: flex;
+  justify-content: center;
+}
+
+#contactme img{
+  width: 3em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+#customer, #contacts{
+  margin-top: -0.1em;
+}
+
+#sidenav ul{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 0;
+  top: 15em;
+  bottom: 15em;
+  z-index: 1;
+  opacity: 0.4;
+}
+
+#sidenav> ul> li> a> img{
+  box-shadow: none;
+  width: 2em;
+}
+
+#sidenav> ul> li> a{
+  box-shadow: none;
+  margin-right: -1em;
+}
+
+@media only screen and (min-width: 812px) {
+  #buy{
+    display: flex;
+    flex-direction: row;
+  }
+
+  iframe{
+    border: 2px solid maroon;
+    box-shadow: 5px 5px 5px maroon;
+  }
+
+  /*tag line editing*/
+  .title3{
+    font-size: x-large;
+  }
+
+  #usb{
+    padding-right: 1em;
+  }
+
+  #gif2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  #style2{
+    display: flex;
+  }
+}
