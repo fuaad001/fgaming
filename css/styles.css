@@ -293,11 +293,11 @@ nav>ul>li>a:hover{
 
 #sidenav> ul> li> a{
   box-shadow: none;
-  margin-right: -1em;
+  margin-right: 0;
 }
 
 iframe{
-  width: 50px;
+  width: 100%;
 }
 
 @media only screen and (min-width: 812px) {
@@ -337,5 +337,12 @@ iframe{
 
   #review img{
     width: 5em;
+  }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3){
+  iframe{
+    width: 50px;
   }
 }
