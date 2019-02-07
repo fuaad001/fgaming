@@ -347,6 +347,10 @@ iframe{
   }
 
   nav>ul>li>a{
-    font-size: small;
+    font-size: 1em;
+  }
+
+  #jina{
+    padding-top: 2em;
   }
 }
