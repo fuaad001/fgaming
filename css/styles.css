@@ -296,6 +296,10 @@ nav>ul>li>a:hover{
   margin-right: -1em;
 }
 
+#sidenav> ul> li> a:visited{
+  box-shadow: none;
+}
+
 iframe{
   width: 100%;
 }
